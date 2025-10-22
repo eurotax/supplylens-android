@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- TODO: German translations -->
+  <string name="app_name">SupplyLens</string>
+  <string name="welcome_message">Welcome to SupplyLens</string>
+  <string name="search">Search</string>
+  <string name="token">Token</string>
+  <string name="watchlist">Watchlist</string>
+  <string name="trade">Trade</string>
+  <string name="alerts">Alerts</string>
+  <string name="settings">Settings</string>
+  <string name="alert_thresholds">Alert Thresholds</string>
+  <string name="edit_thresholds">Edit Thresholds</string>
+  <string name="restore_defaults">Restore Defaults</string>
+  <string name="apply_to_token">Apply to this token only</string>
+  <string name="current_preset">Current Preset</string>
+  <string name="preset_conservative">Conservative</string>
+  <string name="preset_balanced">Balanced</string>
+  <string name="preset_aggressive">Aggressive</string>
+  <string name="security_low">Low Risk</string>
+  <string name="security_medium">Medium Risk</string>
+  <string name="security_high">High Risk</string>
+  <string name="security_critical">Critical Risk</string>
+  <string name="connect_wallet">Connect Wallet</string>
+  <string name="disconnect_wallet">Disconnect Wallet</string>
+  <string name="wallet_connected">Wallet Connected</string>
+  <string name="wallet_disconnected">Wallet Disconnected</string>
+  <string name="pro_feature">PRO Feature</string>
+  <string name="upgrade_to_pro">Upgrade to PRO to unlock this feature</string>
+</resources>

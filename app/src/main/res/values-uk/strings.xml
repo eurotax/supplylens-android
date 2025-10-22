@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">SupplyLens</string>
+  <string name="welcome_message">Ласкаво просимо до SupplyLens</string>
+  
+  <!-- Navigation -->
+  <string name="search">Пошук</string>
+  <string name="token">Токен</string>
+  <string name="watchlist">Список спостереження</string>
+  <string name="trade">Торгівля</string>
+  <string name="alerts">Сповіщення</string>
+  <string name="settings">Налаштування</string>
+  <string name="forecast">Прогноз</string>
+  
+  <!-- Watchlist -->
+  <string name="watchlist_limit_free">БЕЗКОШТОВНО: 1 токен</string>
+  <string name="watchlist_limit_pro">PRO: до 50 токенів</string>
+  <string name="watchlist_empty">Список спостереження порожній</string>
+  <string name="add_to_watchlist">Додати до списку</string>
+  <string name="remove_from_watchlist">Видалити зі списку</string>
+  <string name="watchlist_full">Список заповнено. Оновіться до PRO.</string>
+  
+  <!-- Search -->
+  <string name="search_tokens">Пошук токенів</string>
+  <string name="search_by_symbol">Пошук за символом або адресою</string>
+  <string name="recent_searches">Недавні пошуки</string>
+  <string name="no_results">Результати не знайдено</string>
+  
+  <!-- Alerts -->
+  <string name="alert_thresholds">Пороги сповіщень</string>
+  <string name="edit_thresholds">Редагувати пороги</string>
+  <string name="restore_defaults">Відновити за замовчуванням</string>
+  <string name="apply_to_token">Застосувати лише до цього токену</string>
+  <string name="current_preset">Поточний пресет</string>
+  <string name="alerts_free_readonly">БЕЗКОШТОВНО: Тільки перегляд</string>
+  <string name="alerts_pro_editable">PRO: Редагування порогів</string>
+  
+  <!-- Alert Presets -->
+  <string name="preset_conservative">Консервативний</string>
+  <string name="preset_balanced">Збалансований</string>
+  <string name="preset_aggressive">Агресивний</string>
+  
+  <!-- Alert Categories -->
+  <string name="lp_lock">Блокування LP</string>
+  <string name="taxes">Податки</string>
+  <string name="top_holders">Найбільші власники</string>
+  <string name="liquidity">Ліквідність</string>
+  <string name="unlocks">Розблокування</string>
+  <string name="futures">Ф\'ючерси</string>
+  <string name="volume_anomaly">Аномалія обсягу</string>
+  
+  <!-- AI Forecast -->
+  <string name="ai_forecast">Прогноз ШІ</string>
+  <string name="generate_forecast">Створити прогноз</string>
+  <string name="forecast_quota_free">БЕЗКОШТОВНО: 1 прогноз за 7 днів</string>
+  <string name="forecast_quota_pro">PRO: Необмежені прогнози</string>
+  <string name="forecast_quota_exhausted">Квоту вичерпано. Наступний прогноз через %d днів.</string>
+  <string name="forecast_loading">Створення прогнозу ШІ…</string>
+  <string name="forecast_error">Не вдалося створити прогноз. Спробуйте знову.</string>
+  
+  <!-- Security Levels -->
+  <string name="security_low">Низький ризик</string>
+  <string name="security_medium">Середній ризик</string>
+  <string name="security_high">Високий ризик</string>
+  <string name="security_critical">Критичний ризик</string>
+  
+  <!-- Wallet -->
+  <string name="connect_wallet">Підключити гаманець</string>
+  <string name="disconnect_wallet">Відключити гаманець</string>
+  <string name="wallet_connected">Гаманець підключено</string>
+  <string name="wallet_disconnected">Гаманець відключено</string>
+  
+  <!-- Pro Features / Paywall -->
+  <string name="pro_feature">Функція PRO</string>
+  <string name="upgrade_to_pro">Оновитися до PRO</string>
+  <string name="start_free_trial">Почати 3-денну пробну версію</string>
+  <string name="pro_benefits_title">Розблокувати функції PRO</string>
+  <string name="pro_benefit_watchlist">Спостереження до 50 токенів</string>
+  <string name="pro_benefit_alerts">Редагування порогів сповіщень</string>
+  <string name="pro_benefit_forecast">Необмежені прогнози ШІ</string>
+  <string name="pro_benefit_priority">Пріоритетна підтримка</string>
+  <string name="subscription_monthly">Щомісячна підписка</string>
+  <string name="trial_then_monthly">3-денна пробна версія, потім $9.99/місяць</string>
+  <string name="cancel_anytime">Скасування в будь-який час</string>
+  
+  <!-- Common -->
+  <string name="loading">Завантаження…</string>
+  <string name="error">Помилка</string>
+  <string name="retry">Повторити</string>
+  <string name="cancel">Скасувати</string>
+  <string name="ok">ОК</string>
+  <string name="save">Зберегти</string>
+  <string name="close">Закрити</string>
+</resources>

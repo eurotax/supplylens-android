@@ -1,0 +1,23 @@
+# Code Owners for SupplyLens Android
+
+# Global owners - will be requested for review on all PRs
+*       @eurotax/admins
+
+# App module
+/app/   @eurotax/admins
+
+# Core modules
+/core/  @eurotax/admins
+
+# Feature modules
+/feature/       @eurotax/admins
+
+# Build configuration
+*.gradle.kts    @eurotax/admins
+gradle.properties       @eurotax/admins
+
+# CI/CD workflows
+/.github/workflows/     @eurotax/admins
+
+# Documentation
+*.md    @eurotax/admins

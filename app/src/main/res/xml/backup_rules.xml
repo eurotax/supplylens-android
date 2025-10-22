@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Include user preferences and app data -->
+    <include domain="sharedpref" path="."/>
+    <include domain="database" path="."/>
+    <include domain="file" path="."/>
+    
+    <!-- Exclude sensitive data -->
+    <exclude domain="sharedpref" path="ai_forecast_prefs.xml"/>
+    <exclude domain="sharedpref" path="billing_prefs.xml"/>
+</full-backup-content>
