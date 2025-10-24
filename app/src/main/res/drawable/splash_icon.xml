@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="288dp"
+    android:height="288dp"
+    android:viewportWidth="288"
+    android:viewportHeight="288">
+    
+    <!-- Gold Frame -->
+    <path
+        android:strokeColor="#F0C35B"
+        android:strokeWidth="6"
+        android:fillColor="#00000000"
+        android:pathData="M60,60 L228,60 Q240,60 240,72 L240,216 Q240,228 228,228 L60,228 Q48,228 48,216 L48,72 Q48,60 60,60 Z"/>
+    
+    <!-- Letter S -->
+    <path
+        android:fillColor="#F0C35B"
+        android:pathData="M120,100 Q135,100 145,110 Q155,120 155,135 Q155,148 145,156 L125,168 Q110,176 110,192 Q110,202 118,210 Q126,218 140,218 L160,218 L160,230 L138,230 Q118,230 105,217 Q92,204 92,185 Q92,168 105,158 L125,146 Q138,138 138,128 Q138,118 130,110 Q122,102 110,102 L90,102 L90,90 L120,100 Z"/>
+    
+    <!-- Letter L -->
+    <path
+        android:fillColor="#F0C35B"
+        android:pathData="M170,100 L185,100 L185,218 L215,218 L215,230 L170,230 Z"/>
+</vector>

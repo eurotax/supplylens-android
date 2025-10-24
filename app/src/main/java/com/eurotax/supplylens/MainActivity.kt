@@ -3,6 +3,7 @@ package com.eurotax.supplylens
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
@@ -27,6 +28,7 @@ import com.eurotax.supplylens.feature.search.SearchScreen
 import com.eurotax.supplylens.feature.watchlist.WatchlistScreen
 import com.eurotax.supplylens.feature.alerts.AlertsScreen
 import com.eurotax.supplylens.feature.forecast.AiForecastScreen
+import com.eurotax.supplylens.feature.settings.SettingsScreen
 
 /**
  * Main Activity with bottom navigation and full app navigation graph.
@@ -36,6 +38,9 @@ import com.eurotax.supplylens.feature.forecast.AiForecastScreen
 class MainActivity : ComponentActivity() {
     
     override fun onCreate(savedInstanceState: Bundle?) {
+        // Install splash screen BEFORE super.onCreate()
+        installSplashScreen()
+        
         super.onCreate(savedInstanceState)
         
         setContent {
@@ -125,7 +130,7 @@ fun MainScreen() {
             }
             
             composable("settings") {
-                SettingsPlaceholder()
+                SettingsScreen()
             }
             
             composable("token/{chain}/{address}") { backStackEntry ->
